@@ -1,0 +1,58 @@
+.movie-banner {
+    background-image: url('../img/banner.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px;
+}
+
+.movie-banner .overlay {
+    background-color: #00704A; 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.movie-banner h1,
+.movie-banner p {
+    color: var(--gris-claro);
+    text-shadow: none;
+}
+
+:root {
+    --rojo-cine: #B3001B; /* rojo intenso, vibrante */
+    --verde-claro: #D4E9E2;
+    --marron-cafe: #362415;
+    --gris-claro: #f7f7f7;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: var(--gris-claro);
+}
+
+.navbar-title,
+.logo-in-nav {
+    color: var(--rojo-cine);
+}
+
+.table-success {
+    background-color: var(--verde-claro) !important;
+}
+
+.btn-primary {
+    background-color: var(--rojo-cine);
+    border-color: var(--rojo-cine);
+}
+
+.btn-primary:hover {
+    background-color: #990017; /* tono más oscuro del rojo-cine */
+    border-color: #990017;
+}
+
+footer.bg-info {
+    background-color: var(--rojo-cine) !important;
+}

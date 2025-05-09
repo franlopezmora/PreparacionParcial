@@ -1,0 +1,35 @@
+### Obtener primera página de películas
+GET http://localhost:3000/api/movies
+Accept: application/json
+
+### Obtener lenguajes
+GET http://localhost:3000/api/languages
+Accept: application/json
+
+### Obtener películas populares
+GET http://localhost:3000/api/movies/populares
+Accept: application/json
+
+### Filtro por título parcial (ej: 'man')
+GET http://localhost:3000/api/movies?titulo=man
+Accept: application/json
+
+### Filtro por lenguaje (español)
+GET http://localhost:3000/api/movies?lenguaje=es
+Accept: application/json
+
+### Filtro por lenguaje (inglés) y título que contenga 'love'
+GET http://localhost:3000/api/movies?lenguaje=en&titulo=love
+Accept: application/json
+
+### Filtro por lenguaje inválido (no debería devolver nada o pocos resultados)
+GET http://localhost:3000/api/movies?lenguaje=fr
+Accept: application/json
+
+### Filtro solo por título (ej: 'star') — sin lenguaje
+GET http://localhost:3000/api/movies?titulo=star
+Accept: application/json
+
+### Filtro solo por lenguaje (francés)
+GET http://localhost:3000/api/movies?lenguaje=fr
+Accept: application/json

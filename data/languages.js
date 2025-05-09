@@ -1,0 +1,43 @@
+// data/languages.js
+
+const languages = {
+  en: "Inglés",
+  ja: "Japonés",
+  fr: "Francés",
+  zh: "Chino",
+  es: "Español",
+  de: "Alemán",
+  hi: "Hindi",
+  ru: "Ruso",
+  ko: "Coreano",
+  te: "Telugu",
+  cn: "Chino (simplificado)",
+  it: "Italiano",
+  nl: "Neerlandés",
+  ta: "Tamil",
+  sv: "Sueco",
+  th: "Tailandés",
+  da: "Danés",
+  xx: "Desconocido",
+  hu: "Húngaro",
+  cs: "Checo",
+  pt: "Portugués",
+  is: "Islandés",
+  tr: "Turco",
+  nb: "Noruego Bokmål",
+  af: "Afrikáans",
+  pl: "Polaco",
+  he: "Hebreo",
+  ar: "Árabe",
+  vi: "Vietnamita",
+  ky: "Kirguís",
+  id: "Indonesio",
+  ro: "Rumano",
+  fa: "Persa",
+  no: "Noruego",
+  sl: "Esloveno",
+  ps: "Pastún",
+  el: "Griego"
+};
+
+export default languages;
